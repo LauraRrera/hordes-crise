@@ -4,7 +4,7 @@
   "description": "Hordes C.R.I.S.E.xtension",
   "version": "1.0",
   "action": {
-    "default_popup": "hello.html",
+    "default_popup": "index.html",
     "default_icon": "images/icon.png"
   },
   "content_scripts": [
