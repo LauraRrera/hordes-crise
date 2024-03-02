@@ -31,12 +31,6 @@ function checkBL() {
       reason:
         'joue trop perso, vol d\'objets, amélioration "Maison" et tentative de "Maison clôturée" J5',
     },
-    {
-      name: "Laura",
-      id: "17730",
-      reason:
-        'joue trop perso, vol d\'objets, amélioration "Maison" et tentative de "Maison clôturée" J5',
-    },
   ];
 
   const userNamesElements = document.getElementsByClassName("username");
