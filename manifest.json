@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Hordes C.R.I.S.E",
+  "description": "Hordes C.R.I.S.E.xtension",
+  "version": "1.0",
+  "action": {
+    "default_popup": "hello.html",
+    "default_icon": "images/icon.png"
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "scripts/bl.js",
+        "scripts/matches.js"
+      ],
+      "matches": [
+        "https://myhordes.eu/*"
+      ]
+    }
+  ],
+  "icons": {
+    "16": "images/icon.png",
+    "32": "images/icon.png",
+    "48": "images/icon.png",
+    "128": "images/icon.png"
+  }
+}
